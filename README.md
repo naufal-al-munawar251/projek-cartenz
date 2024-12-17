@@ -35,31 +35,12 @@ lib/
 │   └── chat_boot_repository.dart
 ├── screen/
 │   └── chat_boot_screen.dart
-├── chat
+├── chat_boot_app.dart
 
 ---
+## 🚀 Fitur Inovasi
 
-## 📜 Kode Utama
-
-### 1. Bloc
-```dart
-import 'package:flutter_bloc/flutter_bloc.dart';
-import '../event/chat_boot_event.dart';
-import '../repository/chat_boot_repository.dart';
-import '../state/chat_boot_state.dart';
-
-class ChatBootBloc extends Bloc<ChatBootEvent, ChatBootState> {
-  final ChatBootRepository repository;
-
-  ChatBootBloc({required this.repository}) : super(const ChatBootState.initial()) {
-    on<GetResponseEvent>((event, emit) async {
-      emit(const ChatBootState.loading());
-      try {
-        final response = await repository.generateContent(event.inputText);
-        emit(ChatBootState.success(response));
-      } catch (e) {
-        emit(ChatBootState.error("Failed to fetch data: $e"));
-      }
-    });
-  }
-}
+- **Chatbot Interface**: Chat interaktif dengan bot.
+- **List Riwayat Pesan**: Menampilkan pesan pengguna dan bot secara berurutan.
+- **Teks Dinamis**: Input teks dengan tombol kirim.
+- **Respons Dinamis**: Data diambil dari API Gemini, dengan parsing JSON untuk menampilkan respons bot.
