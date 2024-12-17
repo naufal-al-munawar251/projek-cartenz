@@ -14,7 +14,7 @@ Proyek ini merupakan implementasi chatbot sederhana dengan menggunakan **Flutter
 
 ---
 
-## 🚀 Fitur
+## 🚀 Fitur Inovasi
 
 - **Chatbot Interface**: Chat interaktif dengan bot.
 - **List Riwayat Pesan**: Menampilkan pesan pengguna dan bot secara berurutan.
