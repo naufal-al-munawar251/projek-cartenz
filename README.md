@@ -1,16 +1,38 @@
-# cartenz
+# Cartenz ChatBot
 
-projek test skill kerja
+Proyek ini merupakan implementasi chatbot sederhana dengan menggunakan **Flutter** dan berbagai teknologi pendukung seperti **Bloc**, **State Management**, **Freezed**, serta konsumsi **REST API**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Teknologi yang Digunakan
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter**: Framework utama untuk pengembangan aplikasi.
+- **Bloc**: Untuk pengelolaan state secara terstruktur.
+- **Freezed**: Membantu dalam pembuatan kelas state immutable secara otomatis.
+- **REST API**: Untuk mendapatkan respons dari chatbot dengan API Gemini.
+- **Dio**: Untuk melakukan HTTP Request.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Fitur
+
+- **Chatbot Interface**: Chat interaktif dengan bot.
+- **List Riwayat Pesan**: Menampilkan pesan pengguna dan bot secara berurutan.
+- **Teks Dinamis**: Input teks dengan tombol kirim.
+- **Respons Dinamis**: Data diambil dari API Gemini, dengan parsing JSON untuk menampilkan respons bot.
+
+---
+
+## 📂 Struktur Folder
+
+```plaintext
+lib/
+├── bloc/
+│   ├── chat_boot_bloc.dart
+│   ├── chat_boot_event.dart
+│   └── chat_boot_state.dart
+├── repository/
+│   └── chat_boot_repository.dart
+├── screen/
+│   └── chat_boot_screen.dart
+├── chat
