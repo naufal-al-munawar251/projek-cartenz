@@ -1,6 +1,6 @@
 # Cartenz ChatBot
 
-Proyek ini merupakan aplikasi pembayaran yang sudah saya kerjakan dengan menggunakan **Flutter** dan berbagai teknologi pendukung seperti **Bloc**, **State Management**, **Freezed**, serta konsumsi **REST API** di dalam nya terdapat fitur yang udah saya tambahkan yaitu chat bot yang udah di buat dengan cara consume APi dengan Gemini APi.
+Proyek ini merupakan aplikasi pembayaran yang sudah saya kerjakan dengan menggunakan **Flutter** dan berbagai teknologi pendukung seperti **Bloc**, **State Management**, **Repository Patern**, **Event**, **Freezed**, serta konsumsi **REST API** di dalam nya terdapat fitur yang udah saya tambahkan yaitu chat bot yang udah di buat dengan cara consume APi dengan Gemini APi.
 
 ---
 
