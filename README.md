@@ -25,7 +25,7 @@ Proyek ini merupakan aplikasi pembayaran yang sudah saya kerjakan dengan menggun
 
 ## 📂 Struktur Folder
 
-[Cek Fitur Chat Boot di Proyek Ini](https://github.com/naufal-al-munawar251/projek-cartenz/tree/master/lib/features/chat_boot)
+[Source Code ChatBoot](https://github.com/naufal-al-munawar251/projek-cartenz/tree/master/lib/features/chat_boot)
 
 ```plaintext
 lib/
