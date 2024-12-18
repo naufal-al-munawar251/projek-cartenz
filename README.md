@@ -29,17 +29,25 @@ Proyek ini merupakan aplikasi pembayaran yang sudah saya kerjakan dengan menggun
 
 ```plaintext
 lib/
-├── bloc/
-│   ├── chat_boot_bloc.dart
-├── repository/
-│   └── chat_boot_event.dart
-├── repository/
-│   └── chat_boot_repository.dart
-├── screen/
-│   └── chat_boot_screen.dart
-├── state/
-│   └── chat_boot_state.dart
-├── chat_boot_module.dart
+├── features/
+│   ├── chat_boot/
+│   │   ├── bloc/
+│   │   │   ├── chat_boot_bloc.dart
+│   │   │
+│   │   ├── event/
+│   │   │   ├── chat_boot_event.dart
+│   │   │
+│   │   ├── repository/
+│   │   │   ├── chat_boot_repository.dart
+│   │   │
+│   │   ├── state/
+│   │   │   ├── chat_boot_state.dart
+│   │   │
+│   │   ├── screen/
+│   │   │   ├── chat_boot_screen.dart
+│   │   │
+│   │   ├── chat_boot_module.dart
+
 ```
 
 ---
